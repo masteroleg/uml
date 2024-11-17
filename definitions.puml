@@ -4,7 +4,7 @@ skinparam {
  Roundcorner 8
  Maxmessagesize 150
  responseMessageBelowArrow true
- backgroundColor BlanchedAlmond
+ 'backgroundColor BlanchedAlmond
  }
 skinparam sequence {
  ArrowThickness 3
