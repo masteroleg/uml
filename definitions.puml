@@ -1,13 +1,14 @@
 @startuml sequence definitions
 
 skinparam {
- Roundcorner 8
+ Roundcorner 18
  Maxmessagesize 150
  responseMessageBelowArrow true
  'backgroundColor BlanchedAlmond
  }
+ 
 skinparam sequence {
- ArrowThickness 3
+ ArrowThickness 2
  ParticipantPadding 20
  MessageAlign center 
  }
