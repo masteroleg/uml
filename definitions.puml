@@ -12,34 +12,19 @@ skinparam sequence {
  MessageAlign center 
  }
  
-
-actor Оператор as Operator 
-participant Сканер as scaner 
-participant "TraceavitPro" as TA
-
 box Start Wheat
-  participant "Пустая канистра" as Gr #Gray
-end box
-box 
-  participant "Начало наполнения\n/перемещения продукта" as Y #Yellow
-end box
-box
-  participant "Привязан к упаковке" as G #LimeGreen
-end box
-box 
-  participant "Закрытая паллета" as W #White
-end box
-box 
-  participant "Временное хранение" as B #SkyBlue
-end box
-box 
-  participant "Брак" as R #Red
-end box
-box 
-  participant "Suspicios" as S #Orange
+	actor Оператор as Operator 
+	participant Сканер as scaner 
+	participant "TraceavitPro" as TA
 end box
 
-
+participant "Пустая канистра" as Gr #Gray
+participant "Начало наполнения\n/перемещения продукта" as Y #Yellow
+participant "Привязан к упаковке" as G #LimeGreen
+participant "Закрытая паллета" as W #White
+participant "Временное хранение" as B #SkyBlue
+participant "Брак" as R #Red
+participant "Suspicios" as S #Orange
 
 
 /'
