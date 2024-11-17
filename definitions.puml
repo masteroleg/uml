@@ -13,11 +13,9 @@ skinparam sequence {
  }
  
 
-autonumber 10 10
-
-actor Оператор as oper
-participant Сканер as scaner
-participant "System" as S
+actor Оператор as oper 
+participant Сканер as scaner 
+participant "TraceavitPro" as TA
 
 box Start Wheat
   participant "Пустая канистра" as Gr #Gray
