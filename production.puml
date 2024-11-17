@@ -1,4 +1,5 @@
 @startuml sequence production
+!include https://raw.githubusercontent.com/masteroleg/uml/refs/heads/main/definitions.puml
 
 Gr-[#gray]>Y: Пустая канистра 
 note right

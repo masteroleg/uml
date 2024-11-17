@@ -1,8 +1,5 @@
 @startuml login
-
-actor Оператор as Operator
-participant Сканер as scaner
-participant "System" as S
+!include https://raw.githubusercontent.com/masteroleg/uml/refs/heads/main/definitions.puml
 
 Operator -> S : Проверить наличие открытого поддона
 alt Есть открытый поддон
