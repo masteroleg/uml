@@ -1,15 +1,15 @@
 @startuml login
 !include https://raw.githubusercontent.com/masteroleg/uml/refs/heads/main/definitions.puml
 
-Operator -> S : Проверить наличие открытого поддона
+Operator -> TA : Проверить наличие открытого поддона
 alt Есть открытый поддон
     S -> Operator : Предложить использовать открытый поддон
-    Operator -> S : Согласен
-    S -> S : Продолжаем использовать открытый поддон
+    Operator -> TA: Согласен
+    TA -> TA : Продолжаем использовать открытый поддон
 else Не согласен
-    S -> S : Открываем новый поддон
+    TA -> TA : Открываем новый поддон
 else Нет открытого поддона
-    S -> S : Используем новый поддон
+    TA -> TA : Используем новый поддон
 end
 
 @enduml
