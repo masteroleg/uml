@@ -26,6 +26,7 @@ participant "Временное хранение" as B #SkyBlue
 participant "Брак" as R #Red
 participant "Suspicios" as S #Orange
 
+autonumber 
 
 /'
 Желтый: Этап начального наполнения или перемещения продукта
