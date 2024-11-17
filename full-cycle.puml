@@ -1,0 +1,11 @@
+@startuml sequence full-cycle
+
+!include https://raw.githubusercontent.com/masteroleg/uml/refs/heads/main/login.puml
+==Login==
+
+!include https://raw.githubusercontent.com/masteroleg/uml/refs/heads/main/production.puml
+==Production==
+
+!include https://raw.githubusercontent.com/masteroleg/uml/refs/heads/main/shift-close.puml
+==Shift-end==
+@enduml
