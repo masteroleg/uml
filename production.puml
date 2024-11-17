@@ -1,0 +1,24 @@
+@startuml sequence production
+
+Gr-[#gray]>Y: Пустая канистра 
+note right
+  Маркированная канистра
+  установлена в пакер
+end note
+
+Y-[#Firebrick]>G
+Y->B: Продукция вспенилась в канистре 
+Y->R
+==no box==
+Y->R
+G-->Y
+G->W
+Y->S
+
+B->R
+B-->Y
+W-->Y
+
+==02==
+==03==
+@enduml

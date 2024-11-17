@@ -1,0 +1,7 @@
+@startuml shift-close
+
+actor Оператор as oper
+participant Сканер as scaner
+participant "System" as S
+
+@enduml
