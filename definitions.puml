@@ -27,7 +27,16 @@ participant "Временное хранение" as B #SkyBlue
 participant "Брак" as R #Red
 participant "Suspicios" as S #Orange
 
-autonumber 
+autonumber 10
+
+/'
+Gr ey		- пустая канистра
+Y ellow		- готова к распределению
+G reen		- связана с упаковкой (ящик/поддон)
+B lue		- отстой (временное хранение)
+R ed		- брак
+S uspicios	- подозрительные (неизвестные, исчезнувшие, потерянные и т.д.)
+'/
 
 /'
 Желтый: Этап начального наполнения или перемещения продукта
