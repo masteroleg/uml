@@ -1,7 +1,8 @@
 @startuml login
 !include https://raw.githubusercontent.com/masteroleg/uml/refs/heads/main/definitions.puml
 
-Operator -> TA : Проверить наличие открытого поддона
+TA->Operator: Проверить наличие открытого поддона
+
 alt Есть открытый поддон
     TA -> Operator : Предложить использовать открытый поддон
     Operator -> TA: Согласен
