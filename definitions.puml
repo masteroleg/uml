@@ -1,4 +1,4 @@
-@startuml sequence start
+@startuml sequence definitions
 
 skinparam {
  Roundcorner 8
